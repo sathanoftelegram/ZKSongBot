@@ -9,11 +9,11 @@ from ZKSongBot import Jebot as app
 from ZKSongBot import LOGGER
 
 pm_start_text = """
-<b>Hi [{}](tg://user?id={}), I'm Song Downloader Bot.</b>
+<b>Hi [{}](tg://user?id={}), I'm a Song Downloader Bot Join our Group For Using me.</b>
 
 Send me /help for know my commands
 
-➟ <b>Mαde by @ZauTeKm</b>
+➟ <b>Mαde by @Hacker_Jr</b>
 """
 
 help_text = """
@@ -24,7 +24,7 @@ help_text = """
 - /deezer <song name>: Download songs via Deezer
 - Send youtube url to my pm for download it on audio format
 
-➟ <b>Mαde by @ZauTeKm</b>
+➟ <b>Mαde by @Hacker_Jr</b>
 """
 
 @app.on_message(filters.command("start"))
@@ -37,10 +37,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Source Code", url="https://githup.com/ZauTeKm/ZKSongBot"
+                        text="Our Group", url="https://t.me/KL_Music_Club"
                     ),
                     InlineKeyboardButton(
-                        text="Group", url="https://t.me/ZauTeSupport"
+                        text="Our Channel", url="https://t.me/KL_ROCKERZ"
                     )
                 ]
             ]
